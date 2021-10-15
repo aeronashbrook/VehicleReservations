@@ -127,6 +127,48 @@ a {
     
     }
   }
-  @media only screen and (max-width: 380px) {
+
+
+  .dropbtn {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(49, 49, 49);
+  }
+  
+  .dropdown {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    border-radius: 10px;
 
   }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}

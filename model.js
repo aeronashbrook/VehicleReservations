@@ -20,8 +20,8 @@ var trim_names = ["DENALI", "AT4", "SLT", "ELEVATION", "SLE", "PRO", "ESSENCE", 
 
 var model_codes = ["ACADIA", "TERAIN", "CANYON", "GHDCRW", "GHDREG", "GHDDBL", "GLDCRL", "GLDDLL", "GLDREL", "YKN", "YKNXL", "ENVISN", "ENCORE", "ENCRGX", "ENCLAV"];
 
-var model_names = ["ACADIA", "TERRAIN", "CANYON", "SIERRA HD CREW", "SIERRA HD REG", "SIERRA HD DBL", 
-"SIERRA 1500 CREW CAB", "SIERRA 1500 DBL", "SIERRA 1500 REG", "YUKON", "YUKON XL", "ENVISION", "ENCORE", "ENCORE GX", "ENCLAVE" ];
+var model_names = ["ACADIA", "TERRAIN", "CANYON", "SIERRA HD", "SIERRA HD", "SIERRA HD", 
+"SIERRA 1500", "SIERRA 1500", "SIERRA 1500", "YUKON", "YUKON XL", "ENVISION", "ENCORE", "ENCORE GX", "ENCLAVE" ];
 
 var f_size = [24, 24, 24, 19, 19, 19, 19, 19, 19, 24, 24, 20, 20, 20, 20];
 
@@ -31,20 +31,21 @@ var model_images = ["Acadia-Reservation.jpg", "Terrain-Reservation.jpg", "Canyon
 
 var key = "AIzaSyDHT-EhjdC_0xY1aXaNFyXkyypg1NUuO2I";
 var sheet = "1RxSlSxOCy1eBt-fKJg2gsItZSKvad8YsktrRRA16IxI";
-var g2query = '2022GMC!A:N';
-var b2query = '2022BUICK!A:N';
-var g1query = '2021GMC!A:N';
+// var g2query = '2022GMC!A:N';
+// var b2query = '2022BUICK!A:N';
+// var g1query = '2021GMC!A:N';
 // var vehicle = "";
+// var query = "";
 
 
 // function apiCall(sheet, vehicle){
-    request.open('GET', "https://sheets.googleapis.com/v4/spreadsheets/" + sheet + "/values/" + b2query + "?key=" + key);
+    request.open('GET', "https://sheets.googleapis.com/v4/spreadsheets/" + sheet + "/values/" + query + "?key=" + key);
     request.send();
     request.onload = ()=>{
         //console.log(JSON.parse(request.response));
         var data = JSON.parse(request.response);
         //console.log(data['values'][0]);
-        populateVehicles(data['values'], b2query, vehicle);
+        populateVehicles(data['values'], query, vehicle);
     }
 // }   
 

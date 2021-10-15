@@ -31,9 +31,9 @@ var model_images = ["Acadia-Reservation.jpg", "Terrain-Reservation.jpg", "Canyon
 
 key = "AIzaSyDHT-EhjdC_0xY1aXaNFyXkyypg1NUuO2I";
 sheet = "1RxSlSxOCy1eBt-fKJg2gsItZSKvad8YsktrRRA16IxI";
-g2query = '2022GMC!A:N';
-b2query = '2022BUICK!A:N';
-g1query = '2021GMC!A:N';
+// g2query = '2022GMC!A:N';
+// b2query = '2022BUICK!A:N';
+// g1query = '2021GMC!A:N';
 
 // request.open('GET', "https://sheets.googleapis.com/v4/spreadsheets/" + sheet + "/values/" + g1query + "?key=" + key);
 // request.send();
@@ -45,13 +45,13 @@ g1query = '2021GMC!A:N';
 //}
 
 
-request.open('GET', "https://sheets.googleapis.com/v4/spreadsheets/" + sheet + "/values/" + g2query + "?key=" + key);
+request.open('GET', "https://sheets.googleapis.com/v4/spreadsheets/" + sheet + "/values/" + query + "?key=" + key);
 request.send();
 request.onload = ()=>{
     //console.log(JSON.parse(request.response));
     var data = JSON.parse(request.response);
     //console.log(data['values'][0]);
-    populateVehicles(data['values'], g2query);
+    populateVehicles(data['values'], query);
 }
 
 function populateVehicles(data, query) {
@@ -198,3 +198,23 @@ function populateVehicles(data, query) {
 // console.log("**************");
 // console.log(data['values'][0]);
 // console.log("**************");
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
