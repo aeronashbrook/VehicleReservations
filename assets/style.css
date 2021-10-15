@@ -1,0 +1,132 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+
+.srp_result {
+    max-width: 800px;
+    display: block;
+    overflow: auto;
+    /* height: 215px; */
+    /* border: solid 1px black; */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.image_div {
+    height: 200px;
+    width: 300px;
+    /* border: solid 1px rgb(29, 29, 29); */
+    border-radius: 25px;
+    float: left;
+    margin: 5px;
+    margin-top: 30px;
+}
+.vehicle_image {
+    height: 200px;
+    border-radius: 25px;
+}
+
+.info {
+    float: left;
+    /* border: solid 1px black; */
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.model {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.detail_table {
+    max-width: 348px;
+}
+.vin_table {
+    width: 100%;
+    max-width: 348px;
+}
+.table_right {
+    float: right;
+}
+
+.detail_table tr {
+    /* width: 250px; */
+    line-height: 2px;
+}
+
+.color_td {
+    width: 285px;
+}
+.color {
+    /* float: left; */
+}
+.color_img {
+    /* margin-top: 5px; */
+    float: right;
+}
+
+.inventory_button {
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 348px;
+    height: 50px;
+    text-align: center;
+    /* margin: 0 auto; */
+
+}
+
+.inventory_button > p {
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 736px) {
+    .detail_table {
+        max-width: 380px;
+    }
+    .srp_result {
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .image_div {
+        height: 200px;
+        width: 100%;
+        /* border: solid 1px rgb(29, 29, 29); */
+        border-radius: 25px;
+        float: none;
+        margin: 0px;
+    }
+    .vehicle_image {
+        display: block;
+        margin-left: 20px;
+        margin: 0 auto;
+    }
+    .info {
+        float: none;
+        /* border: solid 1px black; */
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .color_td {
+        width: 100%;
+    }
+    .inventory_button {
+        width: 100%;
+        max-width: 400px;
+   
+    
+    }
+  }
+  @media only screen and (max-width: 380px) {
+
+  }
