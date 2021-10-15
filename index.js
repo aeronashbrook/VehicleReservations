@@ -138,7 +138,7 @@ function populateVehicles(data, query) {
 
         let reserved_code = data[i][10];
         let reserved = "";
-        console.log(reserved_code)
+        // console.log(reserved_code)
         if (reserved_code.length >= 1 && reserved_code != "NONE") {
         } else {
 
