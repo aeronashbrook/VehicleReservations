@@ -178,7 +178,7 @@ function populateVehicles(data, query, vehicle) {
                     '</td>' +
                     '</tr>' +
                     '</table>' +
-                    '<a href="' + button_link + '"><div class="inventory_button">' + 
+                    '<a href="' + button_link + '" target="_blank"><div class="inventory_button">' + 
                     '<p>' + button_text + '</p>' +
                     '</div></a>' +
                     '</div>' +
