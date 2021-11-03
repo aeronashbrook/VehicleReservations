@@ -26,7 +26,7 @@ var model_names = ["ACADIA", "TERRAIN", "CANYON", "SIERRA HD CREW", "SIERRA HD R
 var f_size = [24, 24, 24, 19, 19, 19, 19, 19, 19, 24, 24, 20, 20, 20, 20];
 
 var model_images = ["Acadia-Reservation.jpg", "Terrain-Reservation.jpg", "Canyon-Reservation.jpg", "3500-Reservation.jpg", "3500-Reservation.jpg", 
-"3500-Reservation.jpg", "1500-Reservation22.jpg", "1500-Reservation22.jpg", "1500-Reservation22.jpg", "Yukon-Reservation.jpg", "Yukon-Reservation.jpg", 
+"3500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "Yukon-Reservation.jpg", "Yukon-Reservation.jpg", 
 "Envision-Reservation.jpg", "Encore-Reservation.jpg", "EncoreGX-Reservation.jpg", "Enclave-Reservation.jpg"];
 
 key = "AIzaSyDHT-EhjdC_0xY1aXaNFyXkyypg1NUuO2I";
