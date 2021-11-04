@@ -124,7 +124,7 @@ function populateVehicles(data, query) {
             button_link= "https://www.westmetroauto.com/inventory/" + vin;
         } else {
             button_text = "Reserve Vehicle";
-            button_link = "https://www.westmetroauto.com/contactusform/";
+            button_link = "https://www.westmetroauto.com/vehicle-reservation/";
         }
     
         // console.log(vin);
