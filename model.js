@@ -14,9 +14,9 @@ var color_names = ["Burnished Bronze Metallic", "Cherry Red Tintcoat",
 "Marine Metallic", "Pacific Blue Metallic", "Dynamic Blue Metallic", "Midnight Blue Metallic", 
 "Desert Sand Metallic", "Redwood Metallic", "Brownstone Metallic", "Forest Metallic", "Hunter Metallic",];
 
-var trim_codes = ["5SA", "4SB", "4SA", "3SB", "3SA", "1SA", "1SL", "1SN", "1SP", "1SB", "1SD", "1SC", "1SU"];
+var trim_codes = ["5SA", "4SB", "4SA", "3SB", "3SA", "1SA", "1SL", "1SN", "1SP", "1SB", "1SD", "1SC", "1SU", "4SD"];
 
-var trim_names = ["DENALI", "AT4", "SLT", "ELEVATION", "SLE", "PRO", "ESSENCE", "PREMIUM", "AVENIR", "PREFERRED", "SELECT", "PREFERRED", "AVENIR"];
+var trim_names = ["DENALI", "AT4", "SLT", "ELEVATION", "SLE", "PRO", "ESSENCE", "PREMIUM", "AVENIR", "PREFERRED", "SELECT", "PREFERRED", "AVENIR", "DENALI"];
 
 var model_codes = ["ACADIA", "TERAIN", "CANYON", "GHDCRW", "GHDREG", "GHDDBL", "GLDCRL", "GLDDLL", "GLDREL", "YKN", "YKNXL", "ENVISN", "ENCORE", "ENCRGX", "ENCLAV"];
 
