@@ -27,7 +27,7 @@ var f_size = [24, 24, 24, 19, 19, 19, 19, 19, 19, 24, 24, 20, 20, 20, 20];
 
 var model_images = ["Acadia-Reservation.jpg", "Terrain-Reservation.jpg", "Canyon-Reservation.jpg", "3500-Reservation.jpg", "3500-Reservation.jpg", 
 "3500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "Yukon-Reservation.jpg", "Yukon-Reservation.jpg", 
-"Envision-Reservation.jpg", "Encore-Reservation.jpg", "EncoreGX-Reservation.jpg", "Enclave-Reservation.jpg"];
+"Envision-Reservation.jpg", "Encore-Reservation.jpg", "EncoreGX-Reservation.jpg", "Enclave-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg"];
 
 var key = "AIzaSyDHT-EhjdC_0xY1aXaNFyXkyypg1NUuO2I";
 var sheet = "1RxSlSxOCy1eBt-fKJg2gsItZSKvad8YsktrRRA16IxI";
