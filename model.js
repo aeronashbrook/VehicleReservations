@@ -66,7 +66,7 @@ function populateVehicles(data, query, vehicle) {
                     //data.length
     for (let i = 1; i < data.length; i++) {
 
-
+        let order_type = data[i][2];
         let model_code = data[i][12];
         let model_index = model_codes.indexOf(model_code);
         let model = "";
@@ -133,7 +133,7 @@ function populateVehicles(data, query, vehicle) {
         let reserved_code = data[i][10];
         let reserved = "";
         console.log(reserved_code)
-        if (reserved_code.length >= 1 && reserved_code != "NONE") {
+        if (reserved_code.length >= 1 && reserved_code != "NONE" || order_type == "SRE") {
         } else {
             if (vehicle == model) {
                 document.getElementById("container").innerHTML +=
