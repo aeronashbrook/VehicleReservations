@@ -23,7 +23,7 @@ var model_codes = ["ACADIA", "TERAIN", "CANYON", "GHDCRW", "GHDREG", "GHDDBL", "
 var model_names = ["ACADIA", "TERRAIN", "CANYON", "SIERRA HD CREW", "SIERRA HD REG", "SIERRA HD DBL", 
 "SIERRA 1500 CREW CAB", "SIERRA 1500 DBL", "SIERRA 1500 REG", "YUKON", "YUKON XL", "ENVISION", "ENCORE", "ENCORE GX", "ENCLAVE", "SIERRA 1500 CREW", "SIERRA 1500 REG"];
 
-var f_size = [24, 24, 24, 19, 19, 19, 19, 19, 19, 24, 24, 20, 20, 20, 20, 16, 19];
+var f_size = [24, 24, 24, 19, 19, 19, 19, 19, 19, 24, 24, 20, 20, 20, 20, 18, 19];
 
 var model_images = ["Acadia-Reservation.jpg", "Terrain-Reservation.jpg", "Canyon-Reservation.jpg", "3500-Reservation.jpg", "3500-Reservation.jpg", 
 "3500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "Yukon-Reservation.jpg", "Yukon-Reservation.jpg", 
@@ -148,7 +148,7 @@ function populateVehicles(data, query) {
                 '<img class="vehicle_image" src="assets/' + model_image + '">' +
                 '</div>' +
                 '<div class="info">' +
-                '<h2 class="model" style="font-size:' + model_fsize + 'px">' + MY + " " + make + " " + model + " " + trim + '</h2>' +
+                '<h2 class="model" style="font-size:' + model_fsize + 'px">' /*+ MY*/ + " " + make + " " + model + " " + trim + '</h2>' +
                 '<table class="detail_table">' +
                 '<tr>' +
                 '<td>' +
