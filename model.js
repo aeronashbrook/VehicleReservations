@@ -20,16 +20,19 @@ var trim_codes = ["5SA", "4SB", "4SA", "3SB", "3SA", "1SA", "1SL", "1SN", "1SP",
 
 var trim_names = ["DENALI", "AT4", "SLT", "ELEVATION", "SLE", "PRO", "ESSENCE", "PREMIUM", "AVENIR", "PREFERRED", "SELECT", "PREFERRED", "AVENIR", "DENALI", "AT4", "ELEVATION"];
 
-var model_codes = ["ACADIA", "TERAIN", "CANYON", "GHDCRW", "GHDREG", "GHDDBL", "GLDCRL", "GLDDLL", "GLDREL", "YKN", "YKNXL", "ENVISN", "ENCORE", "ENCRGX", "ENCLAV", "GLDCRW", "GLDREG", "SAVVAN", "GLDDBL"];
+var model_codes = ["ACADIA", "TERAIN", "CANYON", "GHDCRW", "GHDREG", "GHDDBL", "GLDCRL", "GLDDLL", "GLDREL", "YKN", 
+"YKNXL", "ENVISN", "ENCORE", "ENCRGX", "ENCLAV", "GLDCRW", "GLDREG", "SAVVAN", "GLDDBL"];
 
 var model_names = ["ACADIA", "TERRAIN", "CANYON", "SIERRA HD CREW CAB", "SIERRA HD REGULAR CAB", "SIERRA HD DOUBLE CAB", 
-"SIERRA 1500 CREW CAB", "SIERRA 1500 DOUBLE CAB", "SIERRA 1500 REGULAR CAB", "YUKON", "YUKON XL", "ENVISION", "ENCORE", "ENCORE GX", "ENCLAVE", "SIERRA 1500 CREW CAB", "SIERRA 1500 REGULAR CAB", "SAVANA", "SIERRA 1500 DOUBLE CAB"];
+"SIERRA 1500 CREW CAB", "SIERRA 1500 DOUBLE CAB", "SIERRA 1500 REGULAR CAB", "YUKON", "YUKON XL", "ENVISION", "ENCORE", 
+"ENCORE GX", "ENCLAVE", "SIERRA 1500 CREW CAB", "SIERRA 1500 REGULAR CAB", "SAVANA", "SIERRA 1500 DOUBLE CAB"];
 
-var f_size = [24, 24, 24, 19, 19, 19, 19, 19, 19, 24, 24, 20, 20, 20, 20, 18, 19];
+var f_size = [20, 20, 20, 16, 16, 16, 16, 16, 16, 20, 20, 20, 20, 20, 20, 16, 16, 20, 16];
 
 var model_images = ["Acadia-Reservation.jpg", "Terrain-Reservation.jpg", "Canyon-Reservation.jpg", "3500-Reservation.jpg", "3500-Reservation.jpg", 
 "3500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg", "Yukon-Reservation.jpg", "Yukon-Reservation.jpg", 
-"Envision-Reservation.jpg", "Encore-Reservation.jpg", "EncoreGX-Reservation.jpg", "Enclave-Reservation.jpg", "1500-Reservation.jpg", "1500-Reservation.jpg"];
+"Envision-Reservation.jpg", "Encore-Reservation.jpg", "EncoreGX-Reservation.jpg", "Enclave-Reservation.jpg", "1500-Reservation.jpg", 
+"1500-Reservation.jpg", "Savana-Reservation.jpg", "1500-Reservation.jpg"];
 
 var key = "AIzaSyDHT-EhjdC_0xY1aXaNFyXkyypg1NUuO2I";
 var sheet = "1RxSlSxOCy1eBt-fKJg2gsItZSKvad8YsktrRRA16IxI";
