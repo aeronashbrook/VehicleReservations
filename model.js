@@ -140,7 +140,7 @@ function populateVehicles(data, query, vehicle) {
         console.log(reserved_code)
         if (reserved_code.length >= 1 && reserved_code != "NONE" || order_type == "SRE") {
         } else {
-            if (vehicle == model) {
+            if (vehicle.substr(0,8) == model.substr(0,8)) {
                 document.getElementById("container").innerHTML +=
                     '<div class="srp_result">' + 
                     '<div class="image_div">' +
