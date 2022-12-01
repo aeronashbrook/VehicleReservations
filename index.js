@@ -125,8 +125,10 @@ function populateVehicles(data, query) {
         let button_link = "";
 
         if (delivery_date.length > 3 && vin.length > 3) {
-            button_text = "View Vehicle Details";
-            button_link= "https://www.westmetroauto.com/inventory/" + vin;
+            //button_text = "View Vehicle Details";
+            //button_link= "https://www.westmetroauto.com/inventory/" + vin;
+            button_text = "Reserve Vehicle";
+            button_link = "https://www.westmetroauto.com/vehicle-reservation/";
         } else {
             button_text = "Reserve Vehicle";
             button_link = "https://www.westmetroauto.com/vehicle-reservation/";
