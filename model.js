@@ -98,6 +98,8 @@ function populateVehicles(data, query, vehicle) {
     
         if (delivery_code == "MP") {
             delivery_date = "TBD";
+        } else if (delivery_code == "DELAYED") {
+            delivery_date = "TBD";
         } else if (delivery_code.length > 3) {
             delivery_date = delivery_code;
         } else {
