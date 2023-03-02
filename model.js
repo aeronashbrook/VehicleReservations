@@ -3,7 +3,7 @@ var request = new XMLHttpRequest();
 var color_codes = ["GR8", "GSK", "GEJ", "GFM", "G5J", "GB0", "GB8", "GA0", "GAN", "G4Q", "GLR", 
 "GHL", "G6N", "GGH", "GGK", "GIR", "GYM", "GAZ", "GHD", "G1W", "GP5", "GBA", "GB8", "G9K", "GJW", 
 "G5D", "G7C", "GSK", "GJI", "GHT", "GA0", "GLT", "GLU", "GTL", "G48", "GNK", "GHR", "GED", "G6M", "GXD", "GNT", "GZB",
-"GTR", "G6N", "GZA", "GE8"];
+"GTR", "G6N", "GZA", "GE8", "GXN"];
 
 var color_names = ["Burnished Bronze Metallic", "Cherry Red Tintcoat", 
 "Cinnabar Metallic", "Cinnabar Metallic", "Dark Moon Blue Metallic", "Ebony Twilight Metallic", 
@@ -15,7 +15,7 @@ var color_names = ["Burnished Bronze Metallic", "Cherry Red Tintcoat",
 "Marine Metallic", "Pacific Blue Metallic", "Dynamic Blue Metallic", "Midnight Blue Metallic", 
 "Desert Sand Metallic", "Redwood Metallic", "Brownstone Metallic", "Forest Metallic", "Hunter Metallic", "Titanium Rush Metallic", 
 "Moonstone Gray Metallic", "Cherry Red Tintcoat", "Moonstone Gray Metallic", "Ultra Blue Metallic", "Frosted Pine Metallic",
-"Moonstone Gray Metallic", "White Frost Tricoat"];
+"Moonstone Gray Metallic", "White Frost Tricoat", "Deep Bronze Metallic"];
 
 
 var trim_codes = ["5SA", "4SB", "4SA", "3SB", "3SA", "1SA", "1SL", "1SN", "1SP", "1SB", "1SD", "1SC", "1SU", "4SD", "4SC", "4LE", "5SB", "4SG"];
