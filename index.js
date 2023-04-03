@@ -48,7 +48,7 @@ sheet = "1RxSlSxOCy1eBt-fKJg2gsItZSKvad8YsktrRRA16IxI";
 //     //console.log(data['values'][0]);
 //     populateVehicles(data['values'], g1query);
 //}
-
+//test 04032023
 
 request.open('GET', "https://sheets.googleapis.com/v4/spreadsheets/" + sheet + "/values/" + query + "?key=" + key);
 request.send();
